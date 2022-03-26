@@ -67,6 +67,9 @@ color: #FFFFFF;
   cursor: pointer;
 }
 
-
+.meme-img {
+  max-width: 100%; 
+  /* align-items: center; */
+}
 
 
