@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.header {
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 10px 10px;  
+  height: 65px;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header img {
+  max-width: 45px; 
+  max-height: 50px; 
+  padding-right: 15px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header .nav-main {
+  display: flex; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header .brand {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+  color: #FFFFFF;
+  margin-right: auto;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header .course-info {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 15px;
+color: #FFFFFF;
+
 }
