@@ -37,3 +37,36 @@ line-height: 15px;
 color: #FFFFFF;
 
 }
+
+.meme .meme-input {
+  border: 1px solid #D5D4D8;
+  box-sizing: border-box;
+  border-radius: 5px; 
+  font-family: 'Karla'; 
+ 
+}
+
+
+.meme {
+  display: grid; 
+  grid-template: 40px 40px / 1fr 1fr; 
+  padding: 40px 120px; 
+  gap: 17px; 
+  font-family: 'Karla'; 
+}
+
+.meme-button {
+  grid-column: 1 / -1; 
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  color: #FFFFFF; 
+  font-family: 'Karla'; 
+  font-size: 16px; 
+  font-weight: 400;
+  border: none; 
+  cursor: pointer;
+}
+
+
+
+

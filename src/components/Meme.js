@@ -4,14 +4,12 @@ export default function Meme() {
 
 
   return (
-    <section className="meme">
-      <div className="meme-inputs">
-        <input placeholder="Shut up" type="text" />
-        <input placeholder="And take my money" type="text" />
-      </div>
+    <form className="meme">
+      <input className="meme-input" placeholder="Shut up" type="text" />
+      <input className="meme-input" placeholder="And take my money" type="text" />
+      <button className="meme-button"> Get a new meme image </button>
+    </form>
 
-      <button> Get a new meme image </button>
-    </section>
   )
 }
 
